@@ -39,7 +39,7 @@ function library:CreateWindow(name, version, icon)
 
 	Window.Name = "Window"
 	Window.Parent = MyGui
-	Window.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+	Window.BackgroundColor3 = Color3.fromRGB(49, 49, 59)
 	Window.Position = UDim2.new(0.5, -300, 0.600000024, -200)
 	Window.Size = UDim2.new(0, 0, 0, 0)
 	Window.ClipsDescendants = true
@@ -227,7 +227,7 @@ function library:CreateWindow(name, version, icon)
 
 		Tabs.Name = "Tabs"
 		Tabs.Parent = Window
-		Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+		Tabs.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
 		Tabs.Position = UDim2.new(0, 5, 0, 36)
 		Tabs.Size = UDim2.new(0, 140, 1, -41)
 
@@ -264,7 +264,7 @@ function library:CreateWindow(name, version, icon)
 
 		Indicator.Name = "Indicator"
 		Indicator.Parent = Tabs
-		Indicator.BackgroundColor3 = Color3.fromRGB(255, 255, 135)
+		Indicator.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
 		Indicator.BorderSizePixel = 0
 		Indicator.BackgroundTransparency = 1
 		Indicator.Position = UDim2.new(0, -14, 0, 4)
@@ -304,7 +304,7 @@ function library:CreateWindow(name, version, icon)
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
 			Page.ScrollBarThickness = 5
-			Page.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 135)
+			Page.ScrollBarImageColor3 = Color3.fromRGB(135, 255, 135)
 			Page.AutomaticCanvasSize = "Y"
 			Page.Visible = false
 
@@ -324,7 +324,7 @@ function library:CreateWindow(name, version, icon)
 
 			SearchBar.Name = "SearchBar"
 			SearchBar.Parent = Page
-			SearchBar.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+			SearchBar.BackgroundColor3 = Color3.fromRGB(30, 30, 36)
 			SearchBar.Size = UDim2.new(1, 0, 0, 30)
 
 			UICorner_4.CornerRadius = UDim.new(0, 4)
@@ -372,7 +372,7 @@ function library:CreateWindow(name, version, icon)
 
 			SectionContainer.Name = "SectionContainer"
 			SectionContainer.Parent = Section
-			SectionContainer.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+			SectionContainer.BackgroundColor3 = Color3.fromRGB(30, 30, 36)
 			SectionContainer.BorderSizePixel = 0
 			SectionContainer.ClipsDescendants = true
 			SectionContainer.Position = UDim2.new(0, 0, 1.25310734e-07, 0)
@@ -381,7 +381,7 @@ function library:CreateWindow(name, version, icon)
 
 			Header.Name = "Header"
 			Header.Parent = Section
-			Header.BackgroundColor3 = Color3.fromRGB(255, 255, 135)
+			Header.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
 			Header.BorderSizePixel = 0
 			Header.Size = UDim2.new(1, 0, 0, 8)
 
